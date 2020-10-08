@@ -101,7 +101,8 @@ void collisioncheck()
     {
       println("collision"+i);
       //EnemyBalls.remove(enemy);
-      enemy[i].ballcolor= (0,0,255);
+      //enemy[i]=enemy[i].changeColour;
+      
     }
   }
 }

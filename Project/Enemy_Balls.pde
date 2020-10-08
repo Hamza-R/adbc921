@@ -24,6 +24,10 @@ class EnemyBalls
     ellipse(x,y,balldiameter,balldiameter);
   }
   
+  //void changeColour(){
+  //ballcolour =color(0,0,255);
+  //}
+  
   void move()
   {
     x = x+dx;
